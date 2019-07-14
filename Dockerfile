@@ -1,4 +1,4 @@
-from h1kkan/jenkins-docker
+from jenkins/jenkins:latest
  
 USER root
 RUN apt-get update -qq \
