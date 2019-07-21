@@ -35,5 +35,5 @@ services:
         SONARQUBE_JDBC_URL: "jdbc:postgresql://db:5432/sonar"
       depends_on:
         - db
-      networks:
-        ci_nw:
+    networks:
+      ci_nw:
