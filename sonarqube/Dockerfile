@@ -1,0 +1,1 @@
+FROM sonarqube/sonarqube:6.7-alpine #sonarqube/Dockerfile
