@@ -1,1 +1,3 @@
-FROM jenkins/jenkins:lts #jenkins/Dockerfile
+FROM jenkins/jenkins:lts 
+
+

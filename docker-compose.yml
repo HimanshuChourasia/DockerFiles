@@ -1,7 +1,9 @@
 version: "2"
 services:
     jenkins_with_docker:
-      image: jenkins/jenkins:lts
+      build:
+         context: .
+      image: jenkins_with_docker_compose:latest 
       container_name: "jenkins_with_docker_compose"
       ports:
        - 8080:8080
